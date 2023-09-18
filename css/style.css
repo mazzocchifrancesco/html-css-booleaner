@@ -25,7 +25,7 @@ body {
 
 .titolo h1 {
     font-weight: 800;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 3px;
 }
 .titolo{
@@ -36,10 +36,15 @@ body {
     color: grey;
     margin: 0;
 }
+/* immagini articolo  */
 
 .immagini-articolo p {
     font-size: 12px;
     margin: 0;
+}
+
+.immagini-articolo img {
+    height: 600px;
 }
 a:link {
     color: rgb(39, 161, 231);
