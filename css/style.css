@@ -2,6 +2,12 @@
 body {
     font-family: 'rubik',  Arial;
     font-size: 18px;
+    margin: 0;
+}
+
+main, footer {
+    padding-left:10px;
+    padding-right:10px;
 }
 
 /* banner  */
@@ -10,7 +16,7 @@ body {
     height: 100px;
     background-image: url(../img/pattern.png);
     background-repeat: repeat-x;
-    background-size: contain;
+    background-size: 13%;
     background-color: rgb(85, 172, 230);
     position: relative;
 }
@@ -19,6 +25,7 @@ body {
     display: block;
     position: absolute;
     bottom: 10%;
+    left: 10px;
 }
 
 /* titolo  */
@@ -29,7 +36,6 @@ body {
     margin-bottom: 3px;
 }
 .titolo{
-    margin-top: 10px;
     margin-bottom: 20px;
 }
 .titolo p{
@@ -72,10 +78,10 @@ ul {
     margin-top: 30px;
 }
 thead {
-    background-color: #3c64f4;
+    background-color: #3f98ea;
     color: white;
 }
-tbody tr:nth-child(odd) {background-color: #78d9ef;}
+tbody tr:nth-child(odd) {background-color: #a1e1ef;}
 td{
     width: 33%;
 }
