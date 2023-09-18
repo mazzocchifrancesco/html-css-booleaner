@@ -88,11 +88,10 @@ td{
 
 /* stile suggerimenti immagine */
 
-.suggerimenti img {
-    display: block;
-    margin-bottom: 5px;
+.contenitore-img {
+    position: relative;
+    margin-bottom: 8px;
 }
-.contenitore-img {position: relative;}
 .contenitore-img p {
     position: absolute;
     top: 0;
@@ -103,5 +102,5 @@ td{
 .suggerimenti > p {
     color: grey;
     font-weight: 800;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
